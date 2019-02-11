@@ -49,8 +49,9 @@ def read_pro(fn):
                                 proF.append(l[5:30])
                         if Pos == 'C':
                                 proC.append(l[5:30])
-                        
-read_pro("C:/Users/coryd/Desktop/python_class_idle/Final/Stats Pro.csv")
+
+# Path
+read_pro("Stats Pro.csv")
 
 def read_clg(fn):
         with open(fn, 'r') as f:
